@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>«star»</title>
+	<link rel="shortcut icon" href="favicon.ico">
+
+</head>
+
+<body>
+	<div class="rootpage">
+		<h1>«star»</h1>
+		<div class="rootpage__pages">
+			<h2>Готовые страницы:</h2>
+			<ol class="rootpage__list">
+				<li><a target="_blank" href="home.html">Home</a></li>
+			</ol>
+			<h2>Попапы:</h2>
+			<ol class="rootpage__list">
+
+			</ol>
+		</div>
+		<div class="rootpage__contact">
+			<a class="contact__link" target="_blanc" href="https://t.me/whoisleshalight">Telegram</a> / <a class="contact__link" target="_blanc" href="https://github.com/whoisleshalight">Github</a>
+		</div>
+
+
+	</div>
+</body>
+
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	.contact__link,
+	.rootpage__contact {
+		font-size: 40px;
+		white-space: nowrap;
+		font-weight: 500;
+	}
+
+
+
+
+
+	.rootpage__contact {
+		position: absolute;
+		bottom: 100px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: #fff;
+		background-color: #1F2E1F;
+	}
+
+	body {
+		font-family: "Montserrat";
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: none;
+		color: #fff
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #c1c1c1;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #000;
+	}
+
+	ul li {
+		list-style: none;
+
+	}
+
+	h1 {
+		font-size: 30px;
+		font-weight: 500;
+		margin-bottom: 40px;
+	}
+
+	h2 {
+		font-weight: 400;
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+	a {
+		transition: all 0.4s ease 0s;
+
+	}
+
+
+	li {
+		font-size: 20px;
+		margin: 0px 0px 30px 0px;
+		font-weight: 300;
+	}
+
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+
+
+	.rootpage {
+		padding: 50px 0px 0px 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			width: 100%;
+			text-align: center;
+		}
+
+		.rootpage {
+			padding: 30px 40px;
+		}
+	}
+
+	@media (max-width: 560px) {
+		h1 {
+			font-size: 24px;
+		}
+
+		h2 {
+			font-size: 20px;
+		}
+
+		li {
+			font-size: 18px;
+		}
+
+		.rootpage {
+			padding: 30px 15px 30px 30px;
+		}
+
+		.rootpage__contact {
+			position: relative;
+			left: 0;
+			transform: none;
+			text-align: center;
+			width: 100%;
+			bottom: 0;
+
+		}
+
+		.rootpage__pages {
+			flex: 1 1 auto;
+		}
+
+		.rootpage {
+			height: 100%;
+		}
+
+		.contact__link,
+		.rootpage__contact {
+			font-size: 24px;
+			white-space: nowrap;
+			font-weight: 500;
+		}
+	}
+</style>
+
+</html>
